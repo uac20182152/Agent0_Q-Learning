@@ -1,0 +1,36 @@
+{
+  "object_dictionary": {
+    " ": "free space",
+    "O": "visible obstacle",
+    "I": "invisible obstacle",
+    "B": "bomb",
+    "G": "goal",
+    "A": "agent start position (only 1)"
+  },
+  "object_map": [
+    "OOOOOOOO",
+    "O      O",
+    "O      O",
+    "OG  B AO",
+    "O T    O",
+    "O      O",
+    "OOOOOOOO"
+  ],
+  "reward_dictionary": {
+    "N": 0,
+    "J": 2,
+    "K": -50,
+    "G": 100,
+    "R": "random",
+    "T": "target"
+  },
+  "reward_map": [
+    "NNNNNNNN",
+    "NNNNNNNN",
+    "NNNNNNNN",
+    "NGNNKNNN",
+    "NNKNNNNN",
+    "NNNNNNNN",
+    "NNNNNNNN"
+  ]
+}
